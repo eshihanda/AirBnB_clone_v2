@@ -7,7 +7,9 @@ routes: /: display "Hello HBNB!"
 /c/<text>: display "C" followed by value of text variable
 strict_slashes=False
 """
+
 from flask import Flask
+
 
 app = Flask(__name__)
 
